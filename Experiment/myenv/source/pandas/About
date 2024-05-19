@@ -1,0 +1,14 @@
+Pandas is a library for Data Analysis.
+
+Extremely powerful table (DataFrame) system built off of Numpy
+
+Fantastic documentation : https://pandas.pydata.org/docs/reference/index.html#api
+
+
+
+What can we do with Pandas ?
+
+- Tools for reading and writing data between many formats.
+- Intelligently grab data based on indexing , logic , subsetting and more .
+- Handle missing data
+- Adjust and restructure data 
