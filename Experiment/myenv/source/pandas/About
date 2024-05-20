@@ -12,3 +12,11 @@ What can we do with Pandas ?
 - Intelligently grab data based on indexing , logic , subsetting and more .
 - Handle missing data
 - Adjust and restructure data 
+
+
+Series :
+
+- A Series is a data structure in Pandas that holds an array of information along with a named index.
+- The named index differentiates this from a simple NumPy array
+- Formal Defination : One-dimensional ndarray with axis labels 
+
