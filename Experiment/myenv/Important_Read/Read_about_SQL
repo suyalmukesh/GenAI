@@ -1,0 +1,29 @@
+Recently I came across a new analytical window function in SQL. This is often used in analytical and reporting scenarios to compare individual values to the overall context.
+
+I am talking about the ratio_to_report function.
+
+Let's say you have a table of sales data with columns for product, sales amount, and date. If you want to find the ratio of each product's sales to the total sales on each date, you will write below query normally :
+
+SELECT
+product,
+sales_amount,
+date,
+sales_amount / SUM(sales_amount) OVER (PARTITION BY date) AS ratio_to_report
+FROM
+sales_data;
+
+Using the direct function you can write this :
+
+SELECT
+product,
+sales_amount,
+date,
+RATIO_TO_REPORT(sales_amount) OVER (PARTITION BY date) AS ratio_to_report
+FROM
+sales_data;
+
+This simplifies the syntax and makes it more straightforward when compared to manually calculating the ratio.
+
+Please note that the availability of this function may depend on the specific database system you are using.
+
+Is this function available in your database ?
