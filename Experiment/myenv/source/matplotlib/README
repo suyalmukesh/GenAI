@@ -1,0 +1,14 @@
+Matplotlib is known as the "GrandFather" of the plotting and visualization libraries for Python. 
+
+Many other visualization libraries are built directly off of Matplotlib (e.g , seaborn and pandas built-in visualization )
+
+Matplotlib is heavily inspired by the plotting function of the MatLab programming language.
+
+It allows for the creation of almost any plot type and heavy customization. 
+
+
+Reference :
+    
+          https://matplotlib.org/
+
+          https://matplotlib.org/gallary.html
