@@ -1,0 +1,19 @@
+Seaborn is a statistical plotting library that is specifically designed to interact well with pandas dataframes to create common statistical plot types .
+
+Seaborn is built directly off of Matplotlib but uses a simpler "one-line" syntax .
+
+
+
+Section Topics:
+
+Scatter Plots
+
+Distribution Plots
+
+Categorical Plots
+
+Comparison Plots
+
+Seaborn Grids 
+
+Matrix Plots 
