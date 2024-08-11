@@ -22,4 +22,4 @@ Automatically discover new data , extracts schema definations
 
 Built-in classifiers for popular types ; custom classifiers using Grok expression 
 
-Run ad hoc or on a schedule ; serverless - only pay when crawler runs 
+n ad hoc or on a schedule ; serverless - only pay when crawler runsh
