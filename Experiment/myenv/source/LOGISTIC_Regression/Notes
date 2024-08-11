@@ -1,0 +1,7 @@
+Logistic Regression 
+
+
+We've explored how to use Linear Regression and many variations to predict a continous label. 
+
+But how can we predict a categorical label ? The answer is Logistic Regression
+

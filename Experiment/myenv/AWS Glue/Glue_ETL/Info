@@ -1,0 +1,13 @@
+Following annotations - 
+
+@params - Parameters from the ETL job that the script requires .
+
+@type - Type of node in the diagram , such as the transform type , data source , or data sink
+
+@args - Argumets passed to the node , except reference to input data.
+
+@return - Variable returned from script 
+
+@inputs - Data input to node .
+
+

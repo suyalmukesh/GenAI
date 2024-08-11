@@ -1,0 +1,28 @@
+Terminology 
+
+AWS Glue Data Catalog : The persistent metadata store in AWS Glue . Each AWS account has one AWS Glue Data Catalog .
+It contains - 
+           Table definations 
+           Job definations 
+           Other control information 
+
+Table : A table in the AWS Glue Data Catalog consists of the names of columns , data type definations , and other metadata about a base dataset . The schema of your data is represented in your AWS Glue table defination .
+
+
+Classifier : Determines the schema of your data . AWS Glue provides classifiers for common file types , such as CSV , JSON ,AVRO ,XML and others . It also provides classifiers for common relational database management systems using a JDBC connection. You can write your own classifier too . 
+
+
+Crawler : A program that connects to a data store (source or target) progresses through a prioritized list of classifiers to determine the schema for your data , and then creates metadata in the AWS Glue Data Catalog . 
+
+Connection : 
+
+Script : Code that extracts data from sources , transforms it , and loads it into targets . AWS Glue generates PySpark or Scala scripts . 
+
+Transform : 
+
+Job : 
+
+Trigger : Initiates an ETL job . Triggers can be defined based on a scheduled time or an event . 
+
+Development Endpoint : An environment that you can use to develop and test your AWS Glue scripts . 
+

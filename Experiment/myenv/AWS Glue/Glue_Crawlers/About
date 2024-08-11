@@ -1,0 +1,25 @@
+Glue Crawlers 
+
+Data Sources 
+
+Detection Patterns 
+
+Schema Management 
+
+Configuration 
+
+
+---------------
+
+Data Catalog Crawlers 
+
+Crawlers automatically build your Data catalog and keep it in sync 
+
+Automatically discover new data , extracts schema definations 
+
+    -- Detect schema changes and version tables 
+    -- Detect Hive style partitions on Amazon S3 
+
+Built-in classifiers for popular types ; custom classifiers using Grok expression 
+
+Run ad hoc or on a schedule ; serverless - only pay when crawler runs 
